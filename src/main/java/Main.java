@@ -11,16 +11,16 @@ public class Main {
                 .setName("Иван")
                 .build();
         System.out.println("У - " + mom + " есть сын, - " + son);
-        try {
-            new PersonBuilder().build();
-        } catch (IllegalStateException e) {
-            e.printStackTrace();
-        }
-        try {
-            new PersonBuilder().setAge(-100).build();
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            new PersonBuilder().build();
+//        } catch (IllegalStateException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            new PersonBuilder().setAge(-100).build();
+//        } catch (IllegalArgumentException e) {
+//            e.printStackTrace();
+//        }
 
     }
 
